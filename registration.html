@@ -1,0 +1,56 @@
+<html >
+<head>
+
+<style>
+
+
+.hi{background-color:pink;color:black; }
+body{font-size:25}
+form{text-align:center}
+textarea{resize:none}
+</style>
+
+</head>
+<body >
+
+
+<div class="hi">
+
+
+
+<center>
+<h2>Registration Form</label></h2>
+<form action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
+ First Name : <INPUT type="text"  required name="firstname" placeholder="Enter name here"><br/><BR>
+      Second Name : <INPUT type="text" required name="secondname"  placeholder="Enter surname here">
+      <BR><BR>
+      
+      <!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
+      GENDER:
+      <INPUT type="radio" name="gender" value="male">Male
+      <INPUT type="radio" name="gender" value="female">Female  
+      <BR><br>
+      
+
+SELECT DEPARTMANT : <select name="courses" id="courses">
+  <option value="MCA">MCA</option>
+  <option value="BTECH">BTECH</option>
+  <option value="DEGREE">DEGREE</option>
+  <option value=PHARMACY>PHARMACY</option>
+</select><br/></br>
+CONTACT :<input type="number"  required  name="contact" placeholder="Enter your number">
+<br/><BR>
+ADDRESS:<BR>        
+        <TEXTAREA rows="6" cols="50" required  name="commentfield"></TEXTAREA>
+        <BR/><BR>
+PIN : <input type="number" name="PIN" placeholder="Enter your number">
+<br/><BR>
+<INPUT TYPE="submit" value="SUBMIT">
+        <INPUT TYPE="reset" value="Reset">
+    </div>
+
+
+</form>
+<marquee>PLEASE ENTER VALID DETAILS</marquee>
+</body>
+</html>

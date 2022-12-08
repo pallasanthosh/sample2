@@ -1,0 +1,36 @@
+<HTML>
+  <HEAD>
+    <TITLE>Feedback Form</TITLE>
+<style>
+.groove{border-style:groove;border-width:10px;border-color:red}
+body{background-color:black; color:white}
+</style>
+  </HEAD>
+  <BODY class=groove>
+    <H1>Feedback Form</H1>
+    <FORM action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
+      First Name : <INPUT type="text" name="firstname" placeholder="Enter name here">
+      Second Name : <INPUT type="text" name="secondname"  placeholder="Enter surname here">
+      <BR>
+      <BR>
+       
+      <INPUT type="radio" name="gender" value="male">Male<BR>
+      <INPUT type="radio" name="gender" value="female">Female  
+      <BR>
+      <BR>
+      
+      email: <INPUT type="email" name="mail" placeholder="e-mail address">
+      <BR>
+      <BR>
+        Comment :<BR>        
+        <TEXTAREA rows="6" cols="50" name="commentfield"></TEXTAREA>
+        <BR>
+        
+        <BR>
+        <BR>
+        <INPUT TYPE="submit" value="Send Feedback">
+        <INPUT TYPE="reset" value="Reset">
+    </FORM>
+    
+  </BODY>  
+</HTML>
